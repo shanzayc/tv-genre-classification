@@ -66,9 +66,8 @@ Top 3 predictions:
 - Crime TV Shows (0.21)
 - British TV Shows (0.10)
 - International Movies (0.08)
-
+```
 ## Technologies Used
-Technologies Used
 - Python
 - scikit-learn
 - Pandas
@@ -84,3 +83,13 @@ Technologies Used
 
 3. Run Predictions
 `python src/predict.py "Your description here"`
+
+## Contact
+
+If you’d like to connect or have questions about this project:
+
+- **GitHub:** https://github.com/shanzayc
+- **LinkedIn:** https://www.linkedin.com/in/shanzaychaudhry/
+- **Email:** shanzayc@outlook.com
+
+Feel free to reach out!
