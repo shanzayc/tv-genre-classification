@@ -59,7 +59,6 @@ To simplify the problem, multi-genre labels were reduced to a **single primary g
 ```bash
 python src/predict.py "A detective investigates a series of mysterious murders in a small town."
 
-Ouput:
 Predicted genre: Crime TV Shows
 
 Top 3 predictions:
@@ -93,3 +92,4 @@ If you’d like to connect or have questions about this project:
 - **Email:** shanzayc@outlook.com
 
 Feel free to reach out!
+
