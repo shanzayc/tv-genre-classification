@@ -74,13 +74,13 @@ Top 3 predictions:
 - joblib
 
 ## Run Locally
-1. Install dependencies
+1. **Install dependencies**
 `pip install -r requirements.txt`
 
-2. Train model
+3. **Train model**
 `python src/train.py`
 
-3. Run Predictions
+4. **Run Predictions**
 `python src/predict.py "Your description here"`
 
 ## Contact
@@ -92,4 +92,5 @@ If you’d like to connect or have questions about this project:
 - **Email:** shanzayc@outlook.com
 
 Feel free to reach out!
+
 
