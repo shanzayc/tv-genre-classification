@@ -13,6 +13,7 @@ env/
 # Data / models (don't upload raw datasets unless you want to)
 data/*.csv
 models/*.joblib
+data/*.db
 
 # OS
 .DS_Store
