@@ -27,6 +27,26 @@ This project was built to explore **text classification** using real-world data 
 
 To simplify the problem, multi-genre labels were reduced to a **single primary genre** per title.
 
+### Data Storage & ETL (SQL Layer)
+- Raw Netflix data is first loaded into a SQLite database using a custom ETL script.
+- SQL queries are used to extract, filter, and transform structured records before model training.
+- This approach separates data storage from model logic and mirrors real-world analytics pipelines.
+
+## Database Schema
+
+The project uses a lightweight SQLite database to store cleaned Netflix titles.
+
+**Table: `titles`**
+- `id` (INTEGER, primary key)
+- `title` (TEXT)
+- `description` (TEXT)
+- `genre` (TEXT)
+- `release_year` (INTEGER)
+- `type` (TEXT)
+
+The database is generated locally and excluded from version control for reproducibility.
+
+
 ---
 
 ## How It Works
@@ -77,7 +97,9 @@ Top 3 predictions:
 1. **Install dependencies**
 `pip install -r requirements.txt`
 
-3. **Train model**
+2. **Load dataset into SQLite database**
+` python src/load_to_db.py`
+3. **Train model from SQL Database**
 `python src/train.py`
 
 4. **Run Predictions**
@@ -92,5 +114,6 @@ If you’d like to connect or have questions about this project:
 - **Email:** shanzayc@outlook.com
 
 Feel free to reach out!
+
 
 
